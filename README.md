@@ -5,7 +5,9 @@ An easy file sharer using a web server.
 # Installation and quick start
 
 `git clone https://github.com/Codeiology/Receiver.git`
+
 `cd Receiver`
+
 `python3 receiver.py`
 
 * Only tested on macOS.
