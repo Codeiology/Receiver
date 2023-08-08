@@ -8,10 +8,6 @@ import os
 myip = subprocess.check_output(['ipconfig', 'getifaddr', 'en0'])
 myip = myip.decode('utf-8').strip()
 
-if sys.argv[1] is None:
-	print('''Usage: python3 receiver.py <port number>
-Example: python3 receiver.py 9999''')
-
 # Initialize Flask
 
 app = Flask(__name__)
